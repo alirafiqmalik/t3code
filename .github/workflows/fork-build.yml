@@ -433,7 +433,7 @@ jobs:
     name: Test, Build & Smoke macOS arm64
     needs: [compose, validate_and_bundle]
     if: needs.compose.outputs.should_build == 'true'
-    runs-on: macos-26
+    runs-on: xcode-27
     timeout-minutes: 45
     steps:
       - name: Download composed source bundle
