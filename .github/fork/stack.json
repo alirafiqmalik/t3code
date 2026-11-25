@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "upstream": "pingdotgg/t3code",
+  "fork": "alirafiqmalik/t3code",
+  "required_patch": "dev/fork-t3code",
+  "patches": [
+    {
+      "branch": "dev/fork-t3code",
+      "base": "b61af8a5d2af5e514674bd85fe5a62e4ea8f9918",
+      "head": "6e6b4f1b7d00f758ce83e3fca3df8467daa9b48f",
+      "pr": null
+    }
+  ]
+}
